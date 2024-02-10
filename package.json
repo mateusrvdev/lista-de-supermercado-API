@@ -1,0 +1,19 @@
+{
+  "name": "supermarket-list-api",
+  "version": "1.0.0",
+  "description": "Node.js aplication using express and mongodb to save a supermarket list ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateus Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
